@@ -7,7 +7,24 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "GUI",
+        "children": []
+      },
+      {
+        "name": "Keybinds",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "everythingmodjj",
