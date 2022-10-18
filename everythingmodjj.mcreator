@@ -8,13 +8,33 @@
       "locked_code": false,
       "registry_name": "bullet",
       "path": "~/Items"
+    },
+    {
+      "name": "CreativeTab",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creative_tab",
+      "path": "~/Misc"
+    },
+    {
+      "name": "EverythingGun",
+      "type": "rangeditem",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "everything_gun",
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.everythingmodjj.bullet": "Bullet"
+      "item.everythingmodjj.bullet": "Bullet",
+      "item.everythingmodjj.everything_gun": "Everything Gun",
+      "itemGroup.tabcreative_tab": "Everything Mod"
     }
   },
   "foldersRoot": {
@@ -34,6 +54,10 @@
       },
       {
         "name": "Keybinds",
+        "children": []
+      },
+      {
+        "name": "Misc",
         "children": []
       }
     ]

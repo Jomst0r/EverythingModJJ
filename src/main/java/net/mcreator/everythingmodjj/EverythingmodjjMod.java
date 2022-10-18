@@ -26,7 +26,9 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.everythingmodjj.init.EverythingmodjjModTabs;
 import net.mcreator.everythingmodjj.init.EverythingmodjjModItems;
+import net.mcreator.everythingmodjj.init.EverythingmodjjModEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -42,10 +44,11 @@ public class EverythingmodjjMod {
 	private static int messageID = 0;
 
 	public EverythingmodjjMod() {
-
+		EverythingmodjjModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		EverythingmodjjModItems.REGISTRY.register(bus);
+		EverythingmodjjModEntities.REGISTRY.register(bus);
 
 	}
 

@@ -1,0 +1,11 @@
+{
+  "_fv": 33,
+  "_type": "tab",
+  "definition": {
+    "name": "Everything Mod",
+    "icon": {
+      "value": "CUSTOM:EverythingGun"
+    },
+    "showSearch": false
+  }
+}

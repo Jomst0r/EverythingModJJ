@@ -8,7 +8,7 @@
     "name": "Bullet",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:CreativeTab"
     },
     "stackSize": 64,
     "enchantability": 0,
