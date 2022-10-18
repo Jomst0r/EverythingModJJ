@@ -15,12 +15,12 @@
       "value": "CUSTOM:Bullet"
     },
     "shootConstantly": true,
-    "usageCount": 100,
+    "usageCount": 800,
     "actionSound": {
       "value": "entity.arrow.shoot"
     },
     "hasGlow": false,
-    "animation": "crossbow",
+    "animation": "bow",
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "bulletPower": 2.0,

@@ -20,7 +20,7 @@ import net.mcreator.everythingmodjj.entity.EverythingGunEntity;
 
 public class EverythingGunItem extends Item {
 	public EverythingGunItem() {
-		super(new Item.Properties().tab(EverythingmodjjModTabs.TAB_CREATIVE_TAB).durability(100));
+		super(new Item.Properties().tab(EverythingmodjjModTabs.TAB_CREATIVE_TAB).durability(800));
 	}
 
 	@Override
@@ -31,7 +31,7 @@ public class EverythingGunItem extends Item {
 
 	@Override
 	public UseAnim getUseAnimation(ItemStack itemstack) {
-		return UseAnim.CROSSBOW;
+		return UseAnim.BOW;
 	}
 
 	@Override
