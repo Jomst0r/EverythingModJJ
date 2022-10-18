@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "texture_luger_metal",
+        "missing": "texture_luger_metal"
+      },
+      "name": "default"
+    }
+  }
+}
