@@ -7,7 +7,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bullet",
-      "path": "~/Items"
+      "path": "~/Items/JonathansShit"
     },
     {
       "name": "CreativeTab",
@@ -25,7 +25,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "everything_gun",
-      "path": "~/Items"
+      "path": "~/Items/JonathansShit"
     }
   ],
   "variable_elements": [],
@@ -46,7 +46,16 @@
       },
       {
         "name": "Items",
-        "children": []
+        "children": [
+          {
+            "name": "JonathansShit",
+            "children": []
+          },
+          {
+            "name": "JonassShit",
+            "children": []
+          }
+        ]
       },
       {
         "name": "GUI",
