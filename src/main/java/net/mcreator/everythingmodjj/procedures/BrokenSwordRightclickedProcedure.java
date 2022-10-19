@@ -57,6 +57,6 @@ public class BrokenSwordRightclickedProcedure {
 		if (entity instanceof Player _player && !_player.level.isClientSide())
 			_player.displayClientMessage(new TextComponent("\u00A75You have sealed the nearest mobs/players!"), (true));
 		if (entity instanceof LivingEntity _entity)
-			_entity.hurt(new DamageSource("seal").bypassArmor(), 9999999);
+			_entity.hurt(new DamageSource("seal").bypassArmor(), 99999999);
 	}
 }

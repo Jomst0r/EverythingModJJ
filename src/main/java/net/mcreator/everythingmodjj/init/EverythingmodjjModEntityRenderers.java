@@ -16,5 +16,6 @@ public class EverythingmodjjModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(EverythingmodjjModEntities.EVERYTHING_GUN.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(EverythingmodjjModEntities.NOTHING_PERSONAL_GUN.get(), ThrownItemRenderer::new);
 	}
 }

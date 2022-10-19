@@ -1,0 +1,8 @@
+{
+  "parent": "everythingmodjj:custom/bow",
+  "textures": {
+    "0": "everythingmodjj:blocks/texture_luger_metal",
+    "missing": "everythingmodjj:blocks/texture_luger_metal",
+    "particle": "everythingmodjj:items/random"
+  }
+}

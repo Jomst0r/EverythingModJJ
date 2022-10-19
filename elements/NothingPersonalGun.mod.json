@@ -1,0 +1,40 @@
+{
+  "_fv": 33,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "random",
+    "customModelName": "bow:default",
+    "name": "Nothing Personal Gun",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:CreativeTab"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Bullet"
+    },
+    "shootConstantly": false,
+    "usageCount": 800,
+    "actionSound": {
+      "value": "CUSTOM:nothin_personal_kid"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 2.0,
+    "bulletDamage": 1.0,
+    "bulletKnockback": 1,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Bullet"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsPlayer": {
+      "name": "NothingPersonalGunProjectileHitsPlayer"
+    }
+  }
+}
