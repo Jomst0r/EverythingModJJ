@@ -29,6 +29,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.everythingmodjj.init.EverythingmodjjModTabs;
 import net.mcreator.everythingmodjj.init.EverythingmodjjModItems;
 import net.mcreator.everythingmodjj.init.EverythingmodjjModEntities;
+import net.mcreator.everythingmodjj.init.EverythingmodjjModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -49,6 +50,8 @@ public class EverythingmodjjMod {
 
 		EverythingmodjjModItems.REGISTRY.register(bus);
 		EverythingmodjjModEntities.REGISTRY.register(bus);
+
+		EverythingmodjjModBiomes.REGISTRY.register(bus);
 
 	}
 

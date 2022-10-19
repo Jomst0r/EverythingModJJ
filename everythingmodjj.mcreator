@@ -26,12 +26,100 @@
       "locked_code": false,
       "registry_name": "everything_gun",
       "path": "~/Items/JonathansShit"
+    },
+    {
+      "name": "BrokenSword",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_sword",
+      "path": "~/Items/JonassShit"
+    },
+    {
+      "name": "SealedBiome",
+      "type": "biome",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sealed_biome",
+      "path": "~/Dimensions/JonassShit"
+    },
+    {
+      "name": "SealedDimensionPlayerEntersDimension",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sealed_dimension_player_enters_dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dimensions/JonassShit/Procedures"
+    },
+    {
+      "name": "SealedDimension",
+      "type": "dimension",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sealed_dimension",
+      "metadata": {
+        "ep": false
+      },
+      "path": "~/Dimensions/JonassShit"
+    },
+    {
+      "name": "BrokenSwordRightclicked",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_sword_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/JonassShit/Procedures"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "biome.everythingmodjj.sealed_biome": "Sealed Biome",
+      "item.everythingmodjj.sealed_dimension": "Sealed Dimension Portal Igniter",
+      "item.everythingmodjj.broken_sword": "Broken Sword",
+      "death.attack.seal": "%1$s died from using the death seal!",
       "item.everythingmodjj.bullet": "Bullet",
       "item.everythingmodjj.everything_gun": "Everything Gun",
       "itemGroup.tabcreative_tab": "Everything Mod"
@@ -53,7 +141,12 @@
           },
           {
             "name": "JonassShit",
-            "children": []
+            "children": [
+              {
+                "name": "Procedures",
+                "children": []
+              }
+            ]
           }
         ]
       },
@@ -68,6 +161,20 @@
       {
         "name": "Misc",
         "children": []
+      },
+      {
+        "name": "Dimensions",
+        "children": [
+          {
+            "name": "JonassShit",
+            "children": [
+              {
+                "name": "Procedures",
+                "children": []
+              }
+            ]
+          }
+        ]
       }
     ]
   },

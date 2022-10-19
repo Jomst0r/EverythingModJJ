@@ -1,0 +1,32 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "broken_sword",
+    "customModelName": "Normal",
+    "name": "Broken Sword",
+    "specialInfo": [
+      "A broken sword... Doesn't seem like its very new..."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:CreativeTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 4.6,
+    "enchantability": 0,
+    "damageVsEntity": 2.0,
+    "usageCount": 43,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "BrokenSwordRightclicked"
+    }
+  }
+}
