@@ -31,7 +31,7 @@ public class BrokenSwordRightclickedProcedure {
 			return;
 		{
 			final Vec3 _center = new Vec3(x, y, z);
-			List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(4 / 2d), e -> true).stream()
+			List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(9 / 2d), e -> true).stream()
 					.sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).collect(Collectors.toList());
 			for (Entity entityiterator : _entfound) {
 				if (!(entity == entityiterator)) {
