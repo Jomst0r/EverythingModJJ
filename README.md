@@ -1,10 +1,11 @@
-Farstor was here
+The Everything-Mod
 ================
 
 
-#### step 1
+#### What is this mod?
 
-bla bla
+A mod where we add anything we want!
+Who are we? We are zNightmxre7 and Jomstor!
 
 #### step 2
 
