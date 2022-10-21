@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.Item;
 
+import net.mcreator.everythingmodjj.item.SealedDimensionItem;
 import net.mcreator.everythingmodjj.item.NothingPersonalGunItem;
 import net.mcreator.everythingmodjj.item.EverythingGunItem;
 import net.mcreator.everythingmodjj.item.BulletItem;
@@ -21,5 +22,6 @@ public class EverythingmodjjModItems {
 	public static final RegistryObject<Item> BULLET = REGISTRY.register("bullet", () -> new BulletItem());
 	public static final RegistryObject<Item> EVERYTHING_GUN = REGISTRY.register("everything_gun", () -> new EverythingGunItem());
 	public static final RegistryObject<Item> BROKEN_SWORD = REGISTRY.register("broken_sword", () -> new BrokenSwordItem());
+	public static final RegistryObject<Item> SEALED_DIMENSION = REGISTRY.register("sealed_dimension", () -> new SealedDimensionItem());
 	public static final RegistryObject<Item> NOTHING_PERSONAL_GUN = REGISTRY.register("nothing_personal_gun", () -> new NothingPersonalGunItem());
 }

@@ -7,7 +7,7 @@
         "value": "CUSTOM:SealedBiome"
       }
     ],
-    "worldGenType": "End like gen",
+    "worldGenType": "Normal world gen",
     "mainFillerBlock": {
       "value": "Blocks.BLACKSTONE"
     },
@@ -25,21 +25,21 @@
       "name": "SealedDimensionPlayerEntersDimension"
     },
     "portalFrame": {
-      "value": ""
+      "value": "Blocks.NETHERITE_BLOCK"
     },
     "portalParticles": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "SPELL_INSTANT"
     },
     "portalLuminance": 0,
     "portalSound": {
       "value": "block.portal.ambient"
     },
-    "igniterName": "Sealed Dimension Portal Igniter",
+    "igniterName": "Broken Blade",
     "igniterTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:CreativeTab"
     },
-    "texture": "",
-    "portalTexture": "",
-    "enablePortal": false
+    "texture": "broken_part_sword",
+    "portalTexture": "sealedportal",
+    "enablePortal": true
   }
 }

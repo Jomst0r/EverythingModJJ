@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "everythingmodjj:block/sealed_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "everythingmodjj:block/sealed_dimension_portal_ns"
+    }
+  }
+}

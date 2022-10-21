@@ -74,7 +74,7 @@
       "locked_code": false,
       "registry_name": "sealed_dimension",
       "metadata": {
-        "ep": false
+        "ep": true
       },
       "path": "~/Dimensions/JonassShit"
     },
@@ -90,6 +90,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
           },
           {
             "name": "x",
@@ -152,7 +156,7 @@
   "language_map": {
     "en_us": {
       "biome.everythingmodjj.sealed_biome": "Sealed Biome",
-      "item.everythingmodjj.sealed_dimension": "Sealed Dimension Portal Igniter",
+      "item.everythingmodjj.sealed_dimension": "Broken Blade",
       "item.everythingmodjj.broken_sword": "Broken Sword",
       "death.attack.seal": "%1$s died from using the death seal!",
       "item.everythingmodjj.bullet": "Bullet",

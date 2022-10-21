@@ -22,6 +22,6 @@ public class SealedDimensionPlayerEntersDimensionProcedure {
 						"spawnpoint @p ~ ~ ~");
 		}
 		if (entity instanceof Player _player && !_player.level.isClientSide())
-			_player.displayClientMessage(new TextComponent("\u00A75You have been sealed!"), (true));
+			_player.displayClientMessage(new TextComponent("\u00A75You are in the world of sealed beings!"), (true));
 	}
 }
