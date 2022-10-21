@@ -40,7 +40,7 @@ public class BrokenSwordRightclickedProcedure {
 			List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(15 / 2d), e -> true).stream()
 					.sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).collect(Collectors.toList());
 			for (Entity entityiterator : _entfound) {
-				if (!(entity == entityiterator)) {
+				if (!(entityiterator == entity)) {
 					if (entityiterator instanceof ServerPlayer _player && !_player.level.isClientSide()) {
 						ResourceKey<Level> destinationType = ResourceKey.create(Registry.DIMENSION_REGISTRY,
 								new ResourceLocation("everythingmodjj:sealed_dimension"));

@@ -72,7 +72,7 @@ public class SealedDimensionDimension {
 		double z = entity.getZ();
 		if (event.getTo() == ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("everythingmodjj:sealed_dimension"))) {
 
-			SealedDimensionPlayerEntersDimensionProcedure.execute(world, entity);
+			SealedDimensionPlayerEntersDimensionProcedure.execute(world, x, y, z, entity);
 		}
 	}
 }

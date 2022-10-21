@@ -59,6 +59,18 @@
             "type": "entity"
           },
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -132,14 +144,54 @@
       "locked_code": false,
       "registry_name": "nothing_personal_gun_projectile_hits_player",
       "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
+        "dependencies": []
       },
       "path": "~/Items/JonathansShit/Procedures"
+    },
+    {
+      "name": "DarkStar",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_star",
+      "path": "~/Items/JonassShit"
+    },
+    {
+      "name": "DarkStarRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_star_recipe",
+      "path": "~/Items/JonassShit/Recipes"
+    },
+    {
+      "name": "BrokenSwordRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_sword_recipe",
+      "path": "~/Items/JonassShit/Recipes"
+    },
+    {
+      "name": "BulletRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet_recipe",
+      "path": "~/Items/JonathansShit/Recipes"
+    },
+    {
+      "name": "NothingPersonalGunRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nothing_personal_gun_recipe",
+      "path": "~/Items/JonathansShit/Recipes"
     }
   ],
   "variable_elements": [],
@@ -155,6 +207,7 @@
   ],
   "language_map": {
     "en_us": {
+      "item.everythingmodjj.dark_star": "Dark Star",
       "biome.everythingmodjj.sealed_biome": "Sealed Biome",
       "item.everythingmodjj.sealed_dimension": "Broken Blade",
       "item.everythingmodjj.broken_sword": "Broken Sword",
@@ -182,6 +235,10 @@
               {
                 "name": "Procedures",
                 "children": []
+              },
+              {
+                "name": "Recipes",
+                "children": []
               }
             ]
           },
@@ -190,6 +247,10 @@
             "children": [
               {
                 "name": "Procedures",
+                "children": []
+              },
+              {
+                "name": "Recipes",
                 "children": []
               }
             ]

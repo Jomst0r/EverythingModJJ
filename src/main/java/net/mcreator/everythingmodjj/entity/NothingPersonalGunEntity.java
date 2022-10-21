@@ -67,7 +67,9 @@ public class NothingPersonalGunEntity extends AbstractArrow implements ItemSuppl
 	@Override
 	public void playerTouch(Player entity) {
 		super.playerTouch(entity);
-		NothingPersonalGunProjectileHitsPlayerProcedure.execute(entity);
+		NothingPersonalGunProjectileHitsPlayerProcedure.execute(
+
+		);
 	}
 
 	@Override

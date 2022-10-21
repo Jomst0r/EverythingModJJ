@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 78"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:redstone"
+    },
+    "3": {
+      "item": "minecraft:crossbow"
+    },
+    "4": {
+      "item": "minecraft:bow"
+    },
+    "5": {
+      "item": "everythingmodjj:dark_star"
+    },
+    "7": {
+      "item": "minecraft:redstone_torch"
+    },
+    "8": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "everythingmodjj:nothing_personal_gun",
+    "count": 1
+  }
+}

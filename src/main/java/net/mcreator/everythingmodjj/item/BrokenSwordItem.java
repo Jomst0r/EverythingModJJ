@@ -70,7 +70,8 @@ public class BrokenSwordItem extends SwordItem {
 	@Override
 	public InteractionResult useOn(UseOnContext context) {
 		InteractionResult retval = super.useOn(context);
-		SealedDimensionPlayerEntersDimensionProcedure.execute(context.getLevel(), context.getPlayer());
+		SealedDimensionPlayerEntersDimensionProcedure.execute(context.getLevel(), context.getClickedPos().getX(), context.getClickedPos().getY(),
+				context.getClickedPos().getZ(), context.getPlayer());
 		return retval;
 	}
 

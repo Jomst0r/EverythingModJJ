@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "everythingmodjj:dark_star"
+    },
+    {
+      "item": "everythingmodjj:broken_sword"
+    }
+  ],
+  "result": {
+    "item": "everythingmodjj:broken_sword",
+    "count": 1
+  }
+}

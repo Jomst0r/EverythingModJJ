@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.mcreator.everythingmodjj.item.SealedDimensionItem;
 import net.mcreator.everythingmodjj.item.NothingPersonalGunItem;
 import net.mcreator.everythingmodjj.item.EverythingGunItem;
+import net.mcreator.everythingmodjj.item.DarkStarItem;
 import net.mcreator.everythingmodjj.item.BulletItem;
 import net.mcreator.everythingmodjj.item.BrokenSwordItem;
 import net.mcreator.everythingmodjj.EverythingmodjjMod;
@@ -24,4 +25,5 @@ public class EverythingmodjjModItems {
 	public static final RegistryObject<Item> BROKEN_SWORD = REGISTRY.register("broken_sword", () -> new BrokenSwordItem());
 	public static final RegistryObject<Item> SEALED_DIMENSION = REGISTRY.register("sealed_dimension", () -> new SealedDimensionItem());
 	public static final RegistryObject<Item> NOTHING_PERSONAL_GUN = REGISTRY.register("nothing_personal_gun", () -> new NothingPersonalGunItem());
+	public static final RegistryObject<Item> DARK_STAR = REGISTRY.register("dark_star", () -> new DarkStarItem());
 }
