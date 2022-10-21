@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "minecraft:diamond_block"
+    },
+    "4": {
+      "item": "everythingmodjj:dark_star"
+    },
+    "6": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "result": {
+    "item": "everythingmodjj:zeus_lightning_bolt",
+    "count": 1
+  }
+}

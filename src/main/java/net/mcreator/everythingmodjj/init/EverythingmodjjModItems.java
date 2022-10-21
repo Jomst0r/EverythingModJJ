@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.Item;
 
+import net.mcreator.everythingmodjj.item.ZeusLightningBoltItem;
 import net.mcreator.everythingmodjj.item.SealedDimensionItem;
 import net.mcreator.everythingmodjj.item.NothingPersonalGunItem;
 import net.mcreator.everythingmodjj.item.EverythingGunItem;
@@ -26,4 +27,5 @@ public class EverythingmodjjModItems {
 	public static final RegistryObject<Item> SEALED_DIMENSION = REGISTRY.register("sealed_dimension", () -> new SealedDimensionItem());
 	public static final RegistryObject<Item> NOTHING_PERSONAL_GUN = REGISTRY.register("nothing_personal_gun", () -> new NothingPersonalGunItem());
 	public static final RegistryObject<Item> DARK_STAR = REGISTRY.register("dark_star", () -> new DarkStarItem());
+	public static final RegistryObject<Item> ZEUS_LIGHTNING_BOLT = REGISTRY.register("zeus_lightning_bolt", () -> new ZeusLightningBoltItem());
 }

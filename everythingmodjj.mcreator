@@ -192,6 +192,45 @@
       "locked_code": false,
       "registry_name": "nothing_personal_gun_recipe",
       "path": "~/Items/JonathansShit/Recipes"
+    },
+    {
+      "name": "ZeusLightningBoltProcedure",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zeus_lightning_bolt_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/JonassShit/Procedures"
+    },
+    {
+      "name": "ZeusLightningBolt",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zeus_lightning_bolt",
+      "path": "~/Items/JonassShit"
+    },
+    {
+      "name": "ZeusLightningBoltRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zeus_lightning_bolt_recipe",
+      "path": "~/Items/JonassShit/Recipes"
     }
   ],
   "variable_elements": [],
@@ -212,6 +251,7 @@
       "item.everythingmodjj.sealed_dimension": "Broken Blade",
       "item.everythingmodjj.broken_sword": "Broken Sword",
       "death.attack.seal": "%1$s died from using the death seal!",
+      "item.everythingmodjj.zeus_lightning_bolt": "Zeus\u0027s Lightning Bolt",
       "item.everythingmodjj.bullet": "Bullet",
       "subtitles.nothin_personal_kid": "",
       "item.everythingmodjj.everything_gun": "Everything Gun",
